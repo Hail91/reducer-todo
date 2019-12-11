@@ -13,13 +13,14 @@ const ToDoList = () => {
 
   return (
     <div>
+      <h1 className='title'>TO-DO LIST</h1>
       <div>
-        <label type="text">To-do-Item</label>
         <input 
           type='text'
           name='newNoteText'
           value={newTodo}
           onChange={handleChanges}
+          placeholder='add-todo-item'
         />
         <button 
           onClick={() => {
