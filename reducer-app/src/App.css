@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+}
+
+.todo-list:hover {
+  cursor: pointer;
+}
+
+.title {
+  text-decoration: underline;
+}
